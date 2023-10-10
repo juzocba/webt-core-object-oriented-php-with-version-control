@@ -39,3 +39,17 @@ class Youtube extends AbstractVideo implements VideoInterface {
       return '<iframe src = "' . $this->html . '"></iframe>';
    }
 }
+
+
+class Vimeo extends AbstractVideo implements VideoInterface {
+   private $html;
+
+   function __construct($name, $source, $html) {
+      parent::__construct($name, $source);
+      $this->html = $html;
+    }
+
+   function getHTML() {
+      return '<iframe src="' . $this->html . '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+   }
+}
