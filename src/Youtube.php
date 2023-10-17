@@ -1,6 +1,5 @@
 <?php 
 
-include 'VideoInterface.php';
 include 'AbstractVideo.php';
 
 class Youtube extends AbstractVideo implements VideoInterface {
