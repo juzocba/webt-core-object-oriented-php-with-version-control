@@ -1,5 +1,8 @@
 <?php
 
+include 'VideoInterface.php';
+
+
 abstract class AbstractVideo {
    private $name;
    private $source;
