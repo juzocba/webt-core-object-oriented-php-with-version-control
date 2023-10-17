@@ -21,9 +21,11 @@
     <div class="videoentry">
        <?php
             include 'phpForVideo.php';
-            $video = new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/851053438?h=8df14352d3&color=ffffff&title=0&byline=0&portrait=0');
+            $video = new Youtube('', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8');
             for($i = 0; $i < 10; $i++) {
-                echo $video->getHTML();
+                echo $video->getName() . '\n';
+                echo $video->getSource() . '\n';
+                echo $video->getHTML() . '\n';
             }
        ?>
         
