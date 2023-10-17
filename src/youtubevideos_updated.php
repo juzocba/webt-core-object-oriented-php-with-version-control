@@ -20,8 +20,9 @@
     </header>
     <div class="videoentry">
        <?php
-            include 'phpForVideo.php';
-            $video = new Youtube('', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8');
+            include 'Youtube.php';
+            include 'Vimeo.php';
+            $video = new Youtube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8');
             for($i = 0; $i < 10; $i++) {
                 echo $video->getName() . '\n';
                 echo $video->getSource() . '\n';
