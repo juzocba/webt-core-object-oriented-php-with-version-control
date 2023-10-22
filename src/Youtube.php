@@ -1,6 +1,6 @@
 <?php 
 
-include 'AbstractVideo.php';
+require_once  'AbstractVideo.php';
 
 class Youtube extends AbstractVideo implements VideoInterface {
    private $html;
@@ -11,6 +11,6 @@ class Youtube extends AbstractVideo implements VideoInterface {
     }
 
    function getHTML():string {
-      return '<iframe src = "' . $this->html . '"></iframe>';
+      return '<iframe src = "' . $this->html . '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
    }
 }

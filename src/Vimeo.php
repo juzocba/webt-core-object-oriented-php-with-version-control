@@ -1,6 +1,6 @@
 <?php
 
-include 'AbstractVideo.php';
+require_once  'AbstractVideo.php';
 
 class Vimeo extends AbstractVideo implements VideoInterface {
    private $html;

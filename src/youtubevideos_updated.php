@@ -45,11 +45,11 @@
         include 'Vimeo.php';
 
         $videos = [
-            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
-            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
-            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
-            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
-            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8')
+            new YouTube('Chickn Nuggets', 'YouTube', 'https://www.youtube.com/embed/6FX_kkYNgJM?si=Hxoa2FKt1Us8fOUL'),
+            new YouTube('Podcast', 'YouTube', 'https://www.youtube.com/embed/PK_6qpRrMFg?si=pzjLCpI-BfCV8LhP'),
+            new YouTube('Seitanic', 'YouTube', 'https://www.youtube.com/embed/OqFvV61zkyw?si=w1QmtIbdKWISyiSo'),
+            new YouTube('Interview', 'YouTube', 'https://www.youtube.com/embed/U_Kr_saH8ss?si=el3loGEk5hAn0Eva'),
+            new YouTube(' Frostbitten Foods', 'YouTube', 'https://www.youtube.com/embed/lDcbNk2eiI8?si=TVKHSg75NeC78-Qy')
         ];
 
 

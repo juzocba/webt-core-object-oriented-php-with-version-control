@@ -1,6 +1,6 @@
 <?php
 
-include 'VideoInterface.php';
+require_once  'VideoInterface.php';
 
 
 abstract class AbstractVideo {
