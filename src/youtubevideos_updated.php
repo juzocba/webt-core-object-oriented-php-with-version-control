@@ -40,10 +40,22 @@
     </header>
     <div class="videoentry">
         <?php
+
         include 'Youtube.php';
-        $video = new Youtube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8');
-        for ($i = 0; $i < 10; $i++) {
-            echo ($i+1) . ": " . $video->getName() . ", uploaded on ";
+        include 'Vimeo.php';
+
+        $videos = [
+            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
+            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
+            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
+            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8'),
+            new YouTube('Test', 'YouTube', 'https://www.youtube.com/embed/RQkdB49hBTc?si=jwfaWJfC1gRrSNC8')
+        ];
+
+
+
+        foreach ($videos as $video) {
+            echo $video->getName() . ", uploaded on ";
             echo $video->getSource() . "<br>";
             echo $video->getHTML() . "<br>";
             echo "<hr>";
