@@ -51,9 +51,9 @@
             new YouTube('Interview', 'YouTube', 'https://www.youtube.com/embed/U_Kr_saH8ss?si=el3loGEk5hAn0Eva'),
             new YouTube(' Frostbitten Foods', 'YouTube', 'https://www.youtube.com/embed/lDcbNk2eiI8?si=TVKHSg75NeC78-Qy'),
             new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/851053438?h=8df14352d3&color=ffffff&title=0&byline=0&portrait=0'),
-            new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/851053438?h=8df14352d3&color=ffffff&title=0&byline=0&portrait=0'),
-            new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/851053438?h=8df14352d3&color=ffffff&title=0&byline=0&portrait=0'),
-            new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/851053438?h=8df14352d3&color=ffffff&title=0&byline=0&portrait=0'),
+            new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/441381487?h=a21101da4b&color=ffffff&title=0&byline=0&portrait=0'),
+            new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/66250700?h=922b401507&color=e31b23&title=0&byline=0&portrait=0'),
+            new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/439314702?h=d36b73aca3&title=0&byline=0&portrait=0'),
             new Vimeo('Vimeo Video', 'Vimeo', 'https://player.vimeo.com/video/851053438?h=8df14352d3&color=ffffff&title=0&byline=0&portrait=0')
         ];
 
